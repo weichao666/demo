@@ -7,7 +7,7 @@ service_description:
 cse:
   service:
     registry:
-      address: https://cse.cn-north-1.myhwclouds.com:443
+      address: https://cse.cn-north-1.myhuaweicloud.com:443
       instance:
         watch: false
   rest:
@@ -18,12 +18,12 @@ cse:
 #        default: perf-stats
   config:
     client:
-      serverUri: https://cse.cn-north-1.myhwclouds.com:443
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
       refreshMode: 1
       refresh_interval: 5000
   monitor:
     client:
-      serverUri: https://cse.cn-north-1.myhwclouds.com:443
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   credentials:
     accessKey: AONYCAOM6ZA0WGN532SE
     secretKey: CL6FFLnHKona7gvbEzCx7baSDcP3UbePljhg5Pdh
